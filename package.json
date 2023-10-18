@@ -1,0 +1,12 @@
+{
+  "name": "parsicles",
+  "version": "1.0.0",
+  "description": "CSV Parser and Associated Utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["CSV","CSV Parser", "Comma-Separated Values", "RFC 4180", "hierarchical state machine", "regex", "csv file", "file parsing"],
+  "author": "Dave VanderWeele",
+  "license": "ISC"
+}
