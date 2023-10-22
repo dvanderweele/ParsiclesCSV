@@ -1,6 +1,6 @@
 {
   "name": "parsicles-csv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSV Parser and Associated Utilities",
   "main": "index.js",
   "scripts": {

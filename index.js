@@ -278,6 +278,10 @@ function getNonEscaped(
     )
     cursor++
   }
+  if(
+    cursor <= finalTokensIdx &&
+    tokens[cursor][0] === "DQUOTE"
+  ) throw "PARSE ERROR: Unescaped fields can't contain double quotes."
   return [
     cursor,
     r.join("")
